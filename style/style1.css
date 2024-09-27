@@ -1,0 +1,67 @@
+  .uniform-table {
+    width: 98%;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.uniform-table th, .uniform-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+.uniform-table th {
+    font-weight: bold;
+}
+.uniform-table td {
+    background-color: #f9f9f9;
+}
+.uniform-table tr {
+    background-color: #f9f9f9;
+}
+.uniform-table tr:hover {
+    background-color: #f1f1f1;
+}
+@media (max-width: 600px) {
+    .uniform-table, .uniform-table thead, .uniform-table tbody, .uniform-table th, .uniform-table td, .uniform-table tr {
+        display: block;
+    }
+    .uniform-table tr {
+        margin-bottom: 10px;
+    }
+    .uniform-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+    .uniform-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+input[type="text"], input[type="number"] {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
