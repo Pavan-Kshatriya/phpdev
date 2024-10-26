@@ -50,7 +50,7 @@ include("db/db1.php");
   <div id="studentdata"></div>
 </div>
 <div class="modal fade" id="myModal">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-m">
     <div class="modal-content">
       <!-- Modal Header -->
       <div class="modal-header">
@@ -88,7 +88,7 @@ include("db/db1.php");
   </div>
 </div>
 <div class="modal fade" id="editstudentdata">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-m">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Edit Student Details</h4>
